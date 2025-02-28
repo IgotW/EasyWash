@@ -12,153 +12,225 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="20dp">
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imgbutton_devback"
                     android:layout_width="35dp"
                     android:layout_height="35dp"
-                    android:src="@drawable/left_arrow"
-                    android:layout_marginLeft="20dp"
                     android:layout_gravity="center_vertical"
-                    android:clickable="true"/>
+                    android:layout_marginLeft="20dp"
+                    android:clickable="true"
+                    android:src="@drawable/left_arrow" />
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="Developers"
-                    android:textSize="24sp"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
+                    android:layout_marginLeft="25dp"
                     android:layout_weight="1"
-                    android:layout_marginLeft="25dp"/>
+                    android:text="Developers"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
             </LinearLayout>
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Meet the Developers"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="365dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="7dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:justificationMode="inter_word"
+                android:text="We are a team of passionate and driven developers from the University of Cebu - Banilad, committed to crafting innovative and user-centric applications that make a difference. Our shared enthusiasm for technology, problem-solving, and creativity fuels our journey in the ever-evolving world of software development."
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:gravity="center"
-                android:padding="40dp">
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:src="@drawable/eborda_pic"/>
+                <LinearLayout
+                    android:layout_width="365dp"
+                    android:layout_height="103dp"
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="John Michael Eborda"
-                    android:textSize="18sp"
-                    android:textColor="@color/black"
-                    android:fontFamily="sans-serif-medium"/>
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/eborda_pic" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="20 yrs old"
-                    android:textColor="@color/black"
-                    android:textSize="14sp"
-                    android:fontFamily="sans-serif"/>
+                    <LinearLayout
+                        android:layout_width="350dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="25dp"
+                        android:orientation="vertical">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Frontend Developer"
-                    android:textColor="@color/black"
-                    android:textSize="14sp"
-                    android:fontFamily="sans-serif"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="John Michael Eborda"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="johnmichaeleborda79@gmail.com"
-                    android:textColor="@color/black"
-                    android:textSize="14sp"
-                    android:fontFamily="sans-serif"/>
-                <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:src="@drawable/duarte_pic"
-                    android:layout_marginTop="15dp"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Francine Mecolle Duarte"
-                    android:textSize="18sp"
-                    android:textColor="@color/black"
-                    android:fontFamily="sans-serif-medium"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="21 yrs old"
-                    android:textColor="@color/black"
-                    android:textSize="14sp"
-                    android:fontFamily="sans-serif"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="UI/UX Designer"
-                    android:textColor="@color/black"
-                    android:textSize="14sp"
-                    android:fontFamily="sans-serif"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="francineduarte523@gmail.com"
-                    android:textColor="@color/black"
-                    android:textSize="14sp"
-                    android:fontFamily="sans-serif"/>
-                <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:src="@drawable/igot_pic"
-                    android:layout_marginTop="15dp"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Went Ruzel Igot"
-                    android:textSize="18sp"
-                    android:textColor="@color/black"
-                    android:fontFamily="sans-serif-medium"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="20 yrs old"
-                    android:textColor="@color/black"
-                    android:textSize="14sp"
-                    android:fontFamily="sans-serif"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Backend Developer"
-                    android:textColor="@color/black"
-                    android:textSize="14sp"
-                    android:fontFamily="sans-serif"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="wntrzlgt.17@gmail.com"
-                    android:textColor="@color/black"
-                    android:textSize="14sp"
-                    android:fontFamily="sans-serif"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:fontFamily="sans-serif"
+                            android:text="johnmichaeleborda79@gmail.com"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
             </LinearLayout>
+
+            <TextView
+                android:layout_width="345dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="sans-serif"
+                android:justificationMode="inter_word"
+                android:text="John Michael, a 20 year old Frontend Developer, transforms designs into interactive, responsive interfaces. With a keen eye for detail, he ensures smooth animations and seamless user interactions."
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="365dp"
+                    android:layout_height="103dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/duarte_pic" />
+
+                    <LinearLayout
+                        android:layout_width="350dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="25dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="Francine Mecolle Duarte"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:fontFamily="sans-serif"
+                            android:text="francineduarte523@gmail.com"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="345dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="sans-serif"
+                android:justificationMode="inter_word"
+                android:text="Francine, a 21 year old UI/UX Designer, crafts intuitive and visually appealing designs, ensuring seamless user experiences. Passionate about accessibility and aesthetics, she bridges the gap between users and technology."
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="365dp"
+                    android:layout_height="103dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/igot_pic" />
+
+                    <LinearLayout
+                        android:layout_width="350dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="25dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="Went Ruzel Igot"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:fontFamily="sans-serif"
+                            android:text="wntrzlgt.17@gmail.com"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="345dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="sans-serif"
+                android:justificationMode="inter_word"
+                android:text="Went, a 20 year old Backend Developer, builds the foundation of our application, managing databases and server-side logic. He ensures efficiency, security, and scalability for a flawless experience."
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="365dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:justificationMode="inter_word"
+                android:text="Together, we innovate, create, and push boundaries—developing impactful solutions that make technology more accessible and engaging."
+                android:textColor="@color/black"
+                android:textSize="17sp" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
