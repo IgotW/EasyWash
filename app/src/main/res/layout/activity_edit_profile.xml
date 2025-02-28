@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfileActivity"
+    tools:context=".EditProfileActivity"
     android:orientation="vertical"
     android:background="@color/background_light">
 
@@ -51,8 +51,8 @@
             android:layout_marginLeft="-45dp"
             android:layout_marginBottom="15dp"/>
     </LinearLayout>
-    <TextView
-        android:id="@+id/textview_fullname"
+    <EditText
+        android:id="@+id/edittext_fullname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sobrang Latino"
@@ -61,15 +61,15 @@
         android:textColor="@color/black"
         android:textStyle="bold"
         android:layout_marginTop="-10dp"/>
-    <TextView
-        android:id="@+id/textview_phonenumber"
+    <EditText
+        android:id="@+id/edittext_phonenumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="+639334262385"
         android:layout_gravity="center"
         android:textColor="@color/black"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"/>
+        android:textSize="14dp"
+        android:layout_marginTop="-5dp" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -224,34 +224,23 @@
             android:clickable="true"/>
     </LinearLayout>
     <Button
-        android:id="@+id/button_editprofile"
+        android:id="@+id/button_profilesave"
         android:layout_width="320dp"
         android:layout_height="40dp"
         android:layout_gravity="center"
         android:background="@drawable/rounded_box"
         android:backgroundTint="@color/button_background"
         android:layout_marginTop="20dp"
-        android:text="Edit Profile"
+        android:text="Save"
         android:textColor="@color/white"/>
     <Button
-        android:id="@+id/button_changepassword"
+        android:id="@+id/button_profilecancel"
         android:layout_width="320dp"
         android:layout_height="40dp"
         android:layout_gravity="center"
-        android:background="@drawable/rounded_box"
-        android:backgroundTint="@color/button_background"
+        android:background="@drawable/button_outline"
+        android:backgroundTint="@color/black"
         android:layout_marginTop="10dp"
-        android:text="Change Password"
-        android:textColor="@color/white"/>
-    <Button
-        android:id="@+id/button_logout"
-        android:layout_width="320dp"
-        android:layout_height="40dp"
-        android:layout_gravity="center"
-        android:background="@drawable/rounded_box"
-        android:backgroundTint="@color/button_background"
-        android:layout_marginTop="10dp"
-        android:text="Logout"
-        android:textColor="@color/white"/>
-
+        android:text="Cancel"
+        android:textColor="@color/black"/>
 </LinearLayout>
